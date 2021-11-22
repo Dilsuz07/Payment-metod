@@ -1,0 +1,155 @@
+@import "section2/chocolatebar";
+@import "billingaddress/billing";
+@import "return/return";
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: inline-flex;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 4rem;
+   
+    p{
+        font-family: sans-serif;
+        font-size: 15px;
+        color: gray;
+        margin: 0;
+        padding: 0;
+    }
+    span{
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: .5rem;
+    }
+}
+.payment_information{
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    width: 42.5rem;
+    height: 20rem;
+    border-radius: 5px;
+    padding: 1.2rem;
+    font-family: sans-serif;
+    border: 2px  gray;
+    box-shadow: 2px 2px 20px #b8cfbd;
+
+    h1{
+       margin-left: 1rem;
+       margin-bottom: 3rem;
+    }
+    label{
+        color: gray;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    input{
+        color: rgb(92, 85, 85);
+        font-size: 17px;
+        font-weight: 600;
+        margin-left: 1rem;
+        margin-top: .7rem;
+        height: 2.2rem;
+        border: 2px solid #b7c4ba;
+        border-radius: 3px;
+        margin-bottom: 2.5rem;
+        outline: none;
+        padding-left: 1rem;
+        color: black;
+    }
+    #card_number{
+        width: 92%;
+        
+    }
+    #card_holder{
+        width: 22rem;
+    }
+    #exp_date{
+        width: 3rem;
+    }
+    #cvd{
+        width: 3rem;
+    }
+    .label_small{
+        display: flex;
+        width: 12rem;
+        height: 4rem;
+        margin-top: -7rem;
+        margin-left: 24.7rem;
+
+        input{
+            margin-left: 0;
+            width: 6rem;
+        }
+        #exp_date{
+            width: 6rem;
+        }
+        #cvd{
+            width: 6rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px){
+
+    .chocolate_bar{
+        position: absolute;
+        width: 50rem;
+        height: 20rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+
+        .img_chocolate{
+        span{
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-left: 33rem;
+            font-size: 18px;
+        }
+       }
+       .chocolate_word{
+        span{
+            margin-left: 41rem;
+        }
+       }
+
+       .chocolate_total{
+        span{
+            margin-left: 43rem;
+          }
+       }
+    }
+
+    .payment_information{
+        position: absolute;
+        margin-top: 29rem;
+        width: 51.5rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .billing_address{
+        margin-top: 53.5rem;
+        position: absolute;
+        margin-left: 2rem;
+        width: 54rem;
+        height: 15rem;
+    }   
+    
+    .return{
+        display: flex;
+        position: absolute;
+        margin-top: 71rem;
+        margin-left: 2rem;
+        width: 54rem;   
+
+        button{
+            margin-left: 32rem;
+    }
+}
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Metod</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!--Header section-->
+    <div class="header">
+      <p>Card  -  Customer Information  -  Shiping Metod  -</p>
+      <span>Payment Method</span>
+    </div>
+    <!--End Header section-->
+
+    <!--Section  Payment information-->
+    <div class="payment_information">
+
+        <h1>Payment information</h1>
+
+        <form>
+
+            <label for="card_number">
+                CARD NUMBER<br>
+                <input type="text" id="card_number" placeholder="**** **** **** ****">
+            </label><br>
+
+            <label for="card_number">
+                CARD HOLDER<br>
+                <input type="text" id="card_holder" placeholder="Michael Jordan">
+            </label>
+
+           <div class="label_small">
+                <label for="exp_date">
+                EXP.DATE<br>
+                <input type="text" id="exp_date" placeholder="03/19">
+            </label>
+
+             <label for="cvd">
+                CVC
+                <input type="text" id="cvd" placeholder="***">
+            </label>
+
+        </div>
+
+        </form>
+    </div>
+     <!-- End Section  Payment information-->
+
+     <!--Section chocolate bar-->
+     <div class="chocolate_bar">
+         <div class="img_chocolate">
+             <div class="border_img">
+                <img src="./img/order.jpg" alt="chocolate">
+             </div>
+             <div class="circle">
+                2
+            </div>
+            <p>Chocolate bar</p>
+            <span>$2.49</span> 
+         </div>
+
+        <div class="chocolate_word">
+            <p>Subtotal</p>
+            <span>$4.98</span>
+            <p>Shipping</p>
+            <span>$3.00</span>
+        </div> 
+
+        <div class="chocolate_total">
+            <p>Total</p>
+            <span>7.98</span>
+        </div>
+     </div>
+     <!--Section chocolate bar-->
+
+     <!--section Billing address -->
+     <div class="billing_address">
+         <h1>Billing address</h1>
+         <input type="radio" name="use" id="some">
+        <p> 
+            Same as the shipping address
+        </p>
+         <div class="div_line">
+            <input type="radio" name="use" id="use">
+          <span>
+              Use a different biling address
+         </span>  
+         </div>
+     </div>
+     <!-- End section Billing address -->
+
+     <!--Section return-->
+     <div class="return">
+         <a href="#">Return to shipping method</a>
+         <button>Complete order</button>
+     </div>
+     <!--End Section return-->
+ 
+</body>
+</html>

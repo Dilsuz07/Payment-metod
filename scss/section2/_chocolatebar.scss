@@ -1,0 +1,91 @@
+.chocolate_bar{
+    position: absolute;
+    margin-top: -24.5rem;
+    margin-left:51rem;
+    width: 25rem;
+    height: 16.5rem;
+    border-radius: 5px;
+    padding: 1.2rem;
+    font-family: sans-serif;
+    border: 2px gray;
+    box-shadow: 2px 2px 20px #b8cfbd;
+    padding: 2rem;
+}
+.img_chocolate{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 2px solid #b8cfbd;
+
+    p{
+        color: #444b57;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    span{
+        font-weight: 700;
+        margin-top: 1rem;
+        margin-left: 10rem;
+        font-size: 18px;
+    }
+    .border_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        border: 2px solid #b8cfbd;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+}
+   .circle{
+       position:absolute;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: -0.5rem;
+       margin-left: 3.2rem;
+       width: 20px;
+       height: 20px;
+       font-size: 12px;
+       border-radius: 50%;
+       background-color:blue;
+       color: white;
+   }
+}
+.chocolate_word{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    border-bottom: 2px solid #b8cfbd;
+    flex-wrap: wrap;
+
+    p{ 
+        color: #444b57;
+        font-weight: 600;
+    }
+    span{
+        margin-left: 18rem;
+        margin-top: 1rem;
+        font-weight: 550;
+    }
+    }
+    .chocolate_total{
+        margin-top: 1rem;
+        display: flex;
+        width: 100%;
+    
+        p{
+          color: #444b57;
+          font-weight: 600;
+        }
+        span{
+          margin-left: 20.5rem;
+          margin-top: 1rem;
+          font-weight: 550;
+        }
+    }
